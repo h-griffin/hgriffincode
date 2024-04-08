@@ -1,0 +1,206 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@100;300;400;700&display=swap');
+
+body {
+    text-align: center;
+    font-family: 'Jost', sans-serif;
+    background-color: #f0f5ff;
+    /* overflow-x: hidden; */
+}
+
+i {
+    font-size: 1.5em;
+    color: #8a9aba;
+}
+
+h1 {
+    font-size: 48px;
+    color: #232c3d;
+}
+
+.flex-col {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.flex-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.center {
+    text-align: center;
+}
+
+/* desktop styles */
+@media screen and (min-width: 800px) {
+
+    /* hover on desktop only */
+    a div:hover {
+        background-color: #bccbe9;
+    }
+ 
+}
+
+/* mobile styles */
+@media screen and (max-width: 1000px) {
+ 
+}
+
+@media screen and (max-width: 900px) {
+
+ 
+}
+
+@media screen and (max-width: 700px) {
+ 
+    img#griffin {
+        width: 40%;
+    }
+ 
+}
+
+@media screen and (max-width: 500px) {
+    nav {
+        width: 100%;
+    }
+
+    a div {
+        padding: 10px 0px;
+    }
+
+    #home-hero {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #home-article {
+        margin-left: 0 !important;
+        padding-left: 0 !important;
+        justify-content: center !important;
+        border-left: none !important;
+
+        /* border-bottom: 2px solid dimgrey; */
+        margin-top: 3%;
+        padding-top: 3%;
+    }
+
+    #home-article h1, #home-article h2, #home-article h3,
+    #home-article div {
+        text-align: center !important;
+        padding-left: 0 !important;
+    }
+
+    img#griffin {
+        width: 70%;
+    }
+
+ 
+    #home .header section {
+        width: 90% !important;
+        margin-top: 15% !important;
+    }
+
+ 
+
+    .wrapper {
+        padding-top: 5%;
+    }
+}
+
+ 
+
+
+/* === HOME === */
+
+.header {
+    width: 742px;
+    margin: 5% auto;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0px 5px 15px rgb(0 0 0 / 10%);
+    padding: 5% 0px;
+}
+
+main {
+    position: relative;
+}
+
+
+#home-hero {
+    width: 80%;
+    margin: 0 auto;
+    justify-content: center;
+     
+}
+
+#home-article {
+    margin-left: 5%;
+    padding-left: 5%;
+    justify-content: center;
+    border-left: 2px solid dimgrey;
+}
+
+#home-article div {
+    text-align: left;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#home-article div a, #art-links div p a {
+    padding-right: 5%;
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #8a9aba;
+}
+
+#home-article div a i {
+    color: #bccbe9;
+    font-size: 2em;
+}
+
+#home-article div a small, #art-links div p a small {
+    /* font-size: 0; */
+    padding: 0;
+    display: inline-block;
+    color: #4a5c7f;
+}
+
+
+@media screen and (min-width: 800px) {
+
+    /* hover on desktop only */
+    #home-article div a i:hover {
+        color: #8a9aba;
+    }
+}
+
+
+#home-hero h1, #home-hero h2, #home-hero h3 {
+    text-align: left;
+    margin: 0;
+}
+
+#home-hero h2, #home-hero h3 {
+    color: dimgrey;
+}
+
+#griffin {
+    object-fit: contain;
+    width: 30%;
+}
+
+#home .header section {
+    width: 80%;
+    margin: 5% auto;
+}
+
+
+
+  

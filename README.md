@@ -540,3 +540,4 @@
 - onfivefingers - 29 feb 2024
     - draggable html table rows with collapsable tree view jquery-sortable
     - ![draggable-table](assets/2024/draggable-table.gif)
+    - ![draggable-table](assets/2024/draggable-table.png)
