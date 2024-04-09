@@ -437,7 +437,7 @@
   - ![policyjar](assets/2023/policyjar.png)
   - ![policyjar home](assets/2023/policyjarhome.png)
 
-- cheetoe - 2 aug 2023
+- **cheetoe - 2 aug 2023**
   - responsive website and iframes
   - <https://levaire.com/retreat/>
   - ![levaireretreat](assets/2023/levaireretreat.png)
@@ -474,7 +474,7 @@
   - <https://www.vasanewhires.com/>
   - ![vasanewhires](assets/2023/vasanewhires.png)
 
-- kcoffey7 - 7 dec 2023
+- **kcoffey7 - 7 dec 2023**
   - language selection preference stored in browser cookies
   - <https://smsequipment.companyistores.com/>
   - ![smsequipment](assets/2023/smsequipment.png)
