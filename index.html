@@ -1,228 +1,369 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
+    <head>
 
 
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Portfolio ">
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Portfolio ">
 
-    <!-- favicon -->
-    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-    <!-- <link rel="manifest" href="/site.webmanifest"> -->
-    <!-- <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5"> -->
-    <meta name="msapplication-TileColor" content="#da532c">
-    <meta name="theme-color" content="#ffffff">
+        <!-- favicon -->
+        <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+        <!-- <link rel="manifest" href="/site.webmanifest"> -->
+        <!-- <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5"> -->
+        <meta name="msapplication-TileColor" content="#da532c">
+        <meta name="theme-color" content="#ffffff">
 
-    <title>Portfolio | Haley Griffin </title>
-    <!-- <link rel="stylesheet" href="./assets/style.min.css"> -->
-    <link rel="stylesheet" href="./assets/style.css">
-    <link defer rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+        <title>Portfolio | Haley Griffin </title>
+        <!-- <link rel="stylesheet" href="./assets/style.min.css"> -->
+        <link rel="stylesheet" href="./assets/style.css">
+        <link defer rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
 
-    <style>
-        .modal {
-            display: none;
-            position: fixed;
-            z-index: 1;
-            left: 0;
-            top: 0;
-            width: 100%;
-            height: 100%;
-            overflow: auto;
-            background-color: rgb(0, 0, 0);
-            background-color: rgba(0, 0, 0, 0.4);
-        }
 
-        .modal-content {
-            background-color: #fefefe;
-            margin: 15% auto;
-            padding: 20px;
-            border: 1px solid #888;
-            width: 70%;
-            text-align: left;
-        }
+    </head>
 
-        .modal-content img {
-            width: 100%;
-        }
+    <body id="home">
+        <main>
 
-        .close {
-            color: #aaa;
-            float: right;
-            font-size: 28px;
-            font-weight: bold;
-        }
+            <div class="header">
 
-        .close:hover,
-        .close:focus {
-            color: black;
-            text-decoration: none;
-            cursor: pointer;
-        }
+                <div id="home-hero" class="flex-row">
 
-        div.open-modal {
-            border: 1px solid grey;
-            margin: 1%;
-            padding: 10px;
-        }
+                    <img id="griffin" src="./assets/griffin.webp" alt="griffin" width="178">
 
-        div.open-modal img {
-            max-width: 100%;
-        }
-
-        #portfolio {
-            column-count: 3;
-            column-gap: 20px 20px;
-        }
-
-        #portfolio .open-modal {
-            display: inline-block;
-        }
-    </style>
-</head>
-
-<body id="home">
-    <main>
-
-        <div class="header">
-
-            <div id="home-hero" class="flex-row">
-
-                <img id="griffin" src="./assets/griffin.webp" alt="griffin" width="178">
-
-                <div id="home-article" class="flex-col">
-                    <h1>Griffin</h1>
-                    <h2>Full-Stack Software Devloper</h2>
-                    <h3>Portfolio@HaleyGriffin.dev</h3>
-                    <hr>
-                    <div id="socials">
-                        <a href="https://www.linkedin.com/in/h-griffin/" target="_blank" rel="noopener noreferrer"><i
-                                class="fa-brands fa-linkedin"></i><small>Linkedin</small> </a>
-                        <a href="https://www.facebook.com/H4ley.Griffin" target="_blank" rel="noopener noreferrer"><i
-                                class="fa-brands fa-square-facebook"></i> <small>Facebook</small> </a>
-                        <a href="https://www.instagram.com/hs.griffin/" target="_blank" rel="noopener noreferrer"><i
-                                class="fa-brands fa-square-instagram"></i> <small>Instagram</small> </a>
-                        <a href="https://github.com/h-griffin" target="_blank" rel="noopener noreferrer"><i
-                                class="fa-brands fa-square-github"></i> <small>Github</small> </a>
+                    <div id="home-article" class="flex-col">
+                        <h1>Griffin</h1>
+                        <h2>Full-Stack Software Devloper</h2>
+                        <!-- <h3>Portfolio@HaleyGriffin.dev</h3> -->
+                        <hr>
+                        <div id="socials">
+                            <a href="https://www.linkedin.com/in/h-griffin/" target="_blank"
+                                rel="noopener noreferrer"><i class="fa-brands fa-linkedin"></i><small>Linkedin</small>
+                            </a>
+                            <a href="https://www.facebook.com/H4ley.Griffin" target="_blank"
+                                rel="noopener noreferrer"><i class="fa-brands fa-square-facebook"></i>
+                                <small>Facebook</small> </a>
+                            <a href="https://www.instagram.com/hs.griffin/" target="_blank" rel="noopener noreferrer"><i
+                                    class="fa-brands fa-square-instagram"></i> <small>Instagram</small> </a>
+                            <a href="https://github.com/h-griffin" target="_blank" rel="noopener noreferrer"><i
+                                    class="fa-brands fa-square-github"></i> <small>Github</small> </a>
+                        </div>
                     </div>
                 </div>
+
+                <!-- <br><br> -->
+                <h2>Recent Contributions</h2>
+                <hr>
+                <!-- 
+                    - green #cddcd0 - d2dbcc
+
+                    - Load all of them in a ul (PORTFOLIO?) and make the display of all none.
+                    - Then using jquery eq selector display the first 10 li (DIV?) elements.
+                    - on clicking more, just toggle those li which you want to display. 
+                -->
+
+
+                <section id="portfolio">
+
+                    <!-- === pinned === -->
+                    <div class="open-modal" data-title="michiganpsychologicalcare.com"
+                        data-url="https://michiganpsychologicalcare.com"
+                        data-desc="7/2022 - Current | Monthly blog article upload and pagination"
+                        data-img="./assets/2022/michigan-home.png"
+                        data-img2="./assets/2022/michiganpsychologicalcare.png">
+                        <p>michiganpsychologicalcare.com</p>
+                        <img src="./assets/2022/michigan-home.png" alt="michiganpsychologicalcare.com"
+                            draggable="false">
+                    </div>
+                    <!-- === pinned === -->
+
+                    <div class="open-modal" data-title="excelkits.com"
+                        data-url="https://excelkits.com/"
+                        data-desc="12/2022 | React.js chart.js - HTML to image downlaod with file type and size selection"
+                        data-img="./assets/2022/chartjs.png" data-img2="">
+                        <p>excelkits.com</p>
+                        <img src="./assets/2022/chartjs.png" alt="excelkits.com" draggable="false">
+                    </div>
+                    <div class="open-modal" data-title="toomuchcgi.com"
+                        data-url="https://toomuchcgi.com"
+                        data-desc="12/2022 | Responsive mobile navigation"
+                        data-img="./assets/2022/toomuchcgi.png" data-img2="">
+                        <p>toomuchcgi.com</p>
+                        <img src="./assets/2022/toomuchcgi.png" alt="toomuchcgi.com" draggable="false">
+                    </div>
+                    <div class="open-modal" data-title="tourdownunder.com.au"
+                        data-url="https://tourdownunder.com.au/"
+                        data-desc="12/2022 | Responsive mobile navigation"
+                        data-img="./assets/2022/tourdownunder.png" data-img2="">
+                        <p>tourdownunder.com.au</p>
+                        <img src="./assets/2022/tourdownunder.png" alt="tourdownunder.com.au" draggable="false">
+                    </div>
+                    <div class="open-modal" data-title="mearcian.online"
+                        data-url="https://mearcian.online/"
+                        data-desc="11/2022 | Responsive CsHTML website"
+                        data-img="./assets/2022/mercian.png" data-img2="./assets/2022/mercian.png">
+                        <p>mearcian.online</p>
+                        <img src="./assets/2022/mercian.png" alt="mearcian.online" draggable="false">
+                    </div>
+                    <div class="open-modal" data-title="CSS Still Life"
+                        data-url=""
+                        data-desc="11/2022 | HTML CSS still life"
+                        data-img="./assets/2022/cssstilllife.png" data-img2="./assets/2022/cssstilllifeimg.png">
+                        <p>CSS Still Life</p>
+                        <img src="./assets/2022/cssstilllife.png" alt="CSS Still Life" draggable="false">
+                    </div>
+                    <div class="open-modal" data-title="Carousel Text"
+                        data-url=""
+                        data-desc="10/2022 | CSS carousel text animation"
+                        data-img="./assets/2022/carouseltext.gif" data-img2="">
+                        <p>Carousel Text</p>
+                        <img src="./assets/2022/carouseltext.gif" alt="Carousel Text" draggable="false">
+                    </div>
+                    <div class="open-modal" data-title="Derailleur IOS App"
+                        data-url="https://apps.apple.com/app/derailleur/id1625754501"
+                        data-desc="10/2022 | Responsive HTML CSS website footer"
+                        data-img="./assets/2022/derailleur.png" data-img2="">
+                        <p>Derailleur IOS App</p>
+                        <img src="./assets/2022/derailleur.png" alt="Derailleur IOS App" draggable="false">
+                    </div>
+                    <div class="open-modal" data-title="projectbungalows.com/"
+                        data-url="https://www.projectbungalows.com/"
+                        data-desc="10/2022 | Responsive HTML CSS website footer"
+                        data-img="./assets/2022/projectbungalows.png" data-img2="">
+                        <p>projectbungalows.com/</p>
+                        <img src="./assets/2022/projectbungalows.png" alt="projectbungalows.com/" draggable="false">
+                    </div>
+                    <div class="open-modal" data-title="OGL WebGL Fluid Text"
+                        data-url=""
+                        data-desc="9/2022 | OGL WebGL liquid mouse hover effect"
+                        data-img="./assets/2022/wilde.gif" data-img2="">
+                        <p>OGL WebGL Fluid Text</p>
+                        <img src="./assets/2022/wilde.gif" alt="OGL WebGL Fluid Text" draggable="false">
+                    </div>
+                    <div class="open-modal" data-title="onetestforcancer.com"
+                        data-url="https://www.onetestforcancer.com"
+                        data-desc="9/2022 | Cancer screening evaluaton and risk result score"
+                        data-img="./assets/2022/onetestforcancer.png" data-img2="">
+                        <p>onetestforcancer.com</p>
+                        <img src="./assets/2022/onetestforcancer.png" alt="onetestforcancer.com" draggable="false">
+                    </div>
+                    <div class="open-modal" data-title="breathingcolor.com"
+                        data-url="https://www.breathingcolor.com/"
+                        data-desc="8/2022 | Animated nested sidebar menu navigation"
+                        data-img="./assets/2022/breathingcolorhome.png" data-img2="./assets/2022/breathingcolor.png">
+                        <p>breathingcolor.com</p>
+                        <img src="./assets/2022/breathingcolorhome.png" alt="breathingcolor.com" draggable="false">
+                    </div>
+                    <div class="open-modal" data-title="mrrelatable.com"
+                        data-url="https://mrrelatable.com/"
+                        data-desc="8/2022 | Responsive HTML SVG website"
+                        data-img="./assets/2022/mrrelatable.png" data-img2="">
+                        <p>mrrelatable.com</p>
+                        <img src="./assets/2022/mrrelatable.png" alt="mrrelatable.com" draggable="false">
+                    </div>
+                    <div class="open-modal" data-title="bartyrz.com" data-url="https://bartyrz.com"
+                        data-desc="7/2022 | Firebase Database form - submission ID linked with Firebase Storage photo upload"
+                        data-img="./assets/2022/bartyrz.png" data-img2="">
+                        <p>bartyrz.com</p>
+                        <img src="./assets/2022/bartyrz.png" alt="bartyrz.com" draggable="false">
+                    </div>
+                    <div class="open-modal" data-title="Study Guide Quiz" data-url=""
+                        data-desc="7/2022 | Javascript dual questions with hints and answers on a timed cycle from study guide JSON file"
+                        data-img="./assets/2022/satquiz.gif" data-img2="./assets/2022/satquiz.png">
+                        <p>Study Guide Quiz</p>
+                        <img src="./assets/2022/satquiz.gif" alt="Study Guide Quiz" draggable="false">
+                    </div>
+                    <div class="open-modal" data-title="katabayer.com" data-url="https://www.katabayer.com"
+                        data-desc="7/2022 | html liquid gallery navigation" data-img="./assets/2022/katabayer.png"
+                        data-img2="">
+                        <p>katabayer.com</p>
+                        <img src="./assets/2022/katabayer.png" alt="katabayer.com" draggable="false">
+                    </div>
+                    <div class="open-modal" data-title="viszard.com" data-url="https://viszard.com/"
+                        data-desc="7/2022 | JSON form autofill (cities, states, countries)"
+                        data-img="./assets/2022/viszard.gif" data-img2="./assets/2022/viszard.png">
+                        <p>viszard.com</p>
+                        <img src="./assets/2022/viszard.gif" alt="viszard.com" draggable="false">
+                    </div>
+                    <div class="open-modal" data-title="anton-soeffing.de" data-url="https://anton-soeffing.de/dataviz"
+                        data-desc="7/2022 | Javascript animated data visualization of song BPM from Spotify top 100"
+                        data-img="./assets/2022/spotifybpm.gif" data-img2="./assets/2022/spotifybpm.png">
+                        <p>anton-soeffing.de</p>
+                        <img src="./assets/2022/spotifybpm.gif" alt="anton-soeffing.de" draggable="false">
+                    </div>
+                    <div class="open-modal" data-title="maximuslogistics.org" data-url="https://maximuslogistics.org"
+                        data-desc="6/2022 | Responsive HTML and CSS website hosted with firebase hosting"
+                        data-img="./assets/2022/maximuslogisticsinctrucking.png" data-img2="">
+                        <p>maximuslogistics.org</p>
+                        <img src="./assets/2022/maximuslogisticsinctrucking.png" alt="maximuslogistics.org"
+                            draggable="false">
+                    </div>
+                    <div class="open-modal" data-title="Review Box" data-url=""
+                        data-desc="5/2022 | Responsive HTML and CSS review and info display"
+                        data-img="./assets/2022/codreviewbox.png" data-img2="">
+                        <p>Review Box</p>
+                        <img src="./assets/2022/codreviewbox.png" alt="Review Box" draggable="false">
+                    </div>
+                    <div class="open-modal" data-title="memostothefuture.com" data-url="https://memostothefuture.com/"
+                        data-desc="6/2022 | Youtube iframe embed" data-img="./assets/2022/memostothefuture.png"
+                        data-img2="">
+                        <p>memostothefuture.com</p>
+                        <img src="./assets/2022/memostothefuture.png" alt="memostothefuture.com" draggable="false">
+                    </div>
+                    <div class="open-modal" data-title="wallet.dero.io" data-url="https://dero.io/"
+                        data-desc="5/2022 | Responsive HTML and CSS website" data-img="./assets/2022/wallet.dero.io.png"
+                        data-img2="">
+                        <p>wallet.dero.io</p>
+                        <img src="./assets/2022/wallet.dero.io.png" alt="wallet.dero.io" draggable="false">
+                    </div>
+                    <div class="open-modal" data-title="dship.biz" data-url="https://dship.biz/"
+                        data-desc="5/2022 | Responsive HTML and CSS website landing page"
+                        data-img="./assets/2022/dship.png" data-img2="">
+                        <p>dship.biz</p>
+                        <img src="./assets/2022/dship.png" alt="dship.biz" draggable="false">
+                    </div>
+                    <div class="open-modal" data-title="Rich Text Formatter" data-url="https://jsfiddle.net/nk35aLwb/"
+                        data-desc="4/2022 | Convert rich text to plain text, preserving bolded text and spacing"
+                        data-img="./assets/2022/richtextformatter.gif" data-img2="./assets/2022/richtextformatter.png">
+                        <p>Rich Text Formatter</p>
+                        <img src="./assets/2022/richtextformatter.gif" alt="Rich Text Formatter" draggable="false">
+                    </div>
+                    <div class="open-modal" data-title="getrealsmarts.com" data-url="https://www.getrealsmarts.com/"
+                        data-desc="4/2022 | Iframe video player with side panel selection controls"
+                        data-img="./assets/2022/smartsdemo.gif" data-img2="./assets/2022/smarts-home.png">
+                        <p>getrealsmarts.com</p>
+                        <img src="./assets/2022/smartsdemo.gif" alt="getrealsmarts.com" draggable="false">
+                    </div>
+                    <div class="open-modal" data-title="lifefram.org" data-url="https://lifefram.org"
+                        data-desc="4/2022 | Responsive bio layout design" data-img="./assets/2022/lifefram.png"
+                        data-img2="">
+                        <p>lifefram.org</p>
+                        <img src="./assets/2022/lifefram.png" alt="lifefram.org" draggable="false">
+                    </div>
+                    <div class="open-modal" data-title="laurentianbank.ca" data-url="https://www.laurentianbank.ca/"
+                        data-desc="4/2022 | Responsive popup modal" data-img="./assets/2022/laurentianbank.png"
+                        data-img2="">
+                        <p>laurentianbank.ca</p>
+                        <img src="./assets/2022/laurentianbank.png" alt="laurentianbank.ca" draggable="false">
+                    </div>
+                    <div class="open-modal" data-title="monkou.com" data-url="https://www.monkou.com"
+                        data-desc="3/2022 | Responsive popup modal" data-img="./assets/2022/monkouhome.png"
+                        data-img2="./assets/2022/monkou.png">
+                        <p>monkou.com</p>
+                        <img src="./assets/2022/monkouhome.png" alt="monkou.com" draggable="false">
+                    </div>
+                    <div class="open-modal" data-title="runumass.com" data-url="https://runumass.com/"
+                        data-desc="3/2022 | Responsive popup modal" data-img="./assets/2022/runumass-home.png"
+                        data-img2="./assets/2022/runumass.png">
+                        <p>runumass.com</p>
+                        <img src="./assets/2022/runumass-home.png" alt="runumass.com" draggable="false">
+                    </div>
+                    <div class="open-modal" data-title="centrodistributionredfarma.cl"
+                        data-url="https://www.centrodistributionredfarma.cl/"
+                        data-desc="3/2022 | Responsive checkout popup modal"
+                        data-img="./assets/2022/centrodistributionredfarma-home.png"
+                        data-img2="./assets/2022/centrodistributionredfarma.png">
+                        <p>centrodistributionredfarma.cl</p>
+                        <img src="./assets/2022/centrodistributionredfarma-home.png" alt="centrodistributionredfarma.cl"
+                            draggable="false">
+                    </div>
+                    <div class="open-modal" data-title="redfarma.cl" data-url="https://www.redfarma.cl/"
+                        data-desc="2/2022 | JSON to HTML table, atoscroll loop display"
+                        data-img="./assets/2022/redfarma.png" data-img2="">
+                        <p>redfarma.cl</p>
+                        <img src="./assets/2022/redfarma.png" alt="redfarma.cl" draggable="false">
+                    </div>
+                    <div class="open-modal" data-title="melissahermes.com" data-url="https://www.melissahermes.com/"
+                        data-desc="1/2022 | Isotope javascript filtering" data-img="./assets/2022/melissahermes.png"
+                        data-img2="">
+                        <p>melissahermes.com</p>
+                        <img src="./assets/2022/melissahermes.png" alt="melissahermes.com" draggable="false">
+                    </div>
+                    <div class="open-modal" data-title="sanfernandovalleybookkeeping.com"
+                        data-url="https://sanfernandovalleybookkeeping.com/" data-desc="12/2021 | HTML email form"
+                        data-img="./assets/2021/sanfernandovalleybookkeeping.png" data-img2="">
+                        <p>sanfernandovalleybookkeeping.com</p>
+                        <img src="./assets/2021/sanfernandovalleybookkeeping.png" alt="sanfernandovalleybookkeeping.com"
+                            draggable="false">
+                    </div>
+
+                    <!-- modal -->
+                    <div id="modal" class="modal">
+                        <div id="modal-content" class="modal-content">
+                            <div id="modal-head">
+                                <a id="modal-url" href="" target="_blank" rel="noopener noreferrer">
+                                    <h2 id="modal-title">modal-title</h2>
+                                </a>
+
+                                <span id="modal-close">&times;</span>
+                            </div>
+                            <p id="modal-desc">modal-desc</p>
+                            <img id="modal-img" src="" alt="">
+                        </div>
+
+                    </div>
+
+
+                </section>
             </div>
 
-            <h2>Recent Contributions</h2>
+            <h2>Portfolio@HaleyGriffin.dev</h2>
 
-            <section id="portfolio">
+        </main>
 
-                <div class="open-modal" data-title="griffin.com" data-src="https://placehold.jp/150x150.png"
-                    data-alt="placeholder" data-src2="https://placehold.jp/150x150.png" data-alt2="placeholder2"
-                    data-desc="haley griffin dev">
-                    <p>Title 1</p>
-                    <img src="https://placehold.jp/150x150.png" alt="placeholder">
-                </div>
-                <div class="open-modal" data-title="griffincom" data-src="https://placehold.jp/150x150.png"
-                    data-alt="placeholder" data-src2="" data-alt2="" data-desc="sfv book">
-                    <p>Title 2</p>
-                    <img src="https://placehold.jp/150x180.png" alt="placeholder">
-                </div>
-                <div class="open-modal" data-title="griffincom" data-src="https://placehold.jp/150x150.png"
-                    data-alt="placeholder" data-src2="" data-alt2="" data-desc="bartyrz">
-                    <p>Title 3</p>
-                    <img src="https://placehold.jp/150x130.png" alt="placeholder">
-                </div>
-                <div class="open-modal" data-title="griffin.com" data-src="https://placehold.jp/150x150.png"
-                    data-alt="placeholder" data-src2="https://placehold.jp/150x150.png" data-alt2=""
-                    data-desc="haley griffin dev">
-                    <p>Title 4</p>
-                    <img src="https://placehold.jp/150x170.png" alt="placeholder">
-                </div>
-                <div class="open-modal" data-title="griffincom" data-src="https://placehold.jp/150x150.png"
-                    data-alt="placeholder" data-src2="" data-alt2="" data-desc="sfv book">
-                    <p>Title 5</p>
-                    <img src="https://placehold.jp/150x150.png" alt="placeholder">
-                </div>
-                <div class="open-modal" data-title="griffincom" data-src="https://placehold.jp/150x150.png"
-                    data-alt="placeholder" data-src2="" data-alt2="" data-desc="bartyrz">
-                    <p>Title 6</p>
-                    <img src="https://placehold.jp/150x120.png" alt="placeholder">
-                </div>
-                <div class="open-modal" data-title="griffincom" data-src="https://placehold.jp/150x150.png"
-                    data-alt="placeholder" data-src2="" data-alt2="" data-desc="bartyrz">
-                    <p>Title 7</p>
-                    <img src="https://placehold.jp/150x190.png" alt="placeholder">
-                </div>
+        <script>
+            var allBtns = document.getElementsByClassName("open-modal");
+            var modal = document.getElementById("modal");
 
+            var mClose = document.getElementById("modal-close");
+            var mTitle = document.getElementById("modal-title");
+            var mText = document.getElementById("modal-desc");
+            var mUrl = document.getElementById("modal-url");
+            var mImg = document.getElementById("modal-img");
 
-                <div id="modal" class="modal">
-                    <div id="modal-content" class="modal-content">
-                        <span id="modal-close">&times;</span>
-                        <h2 id="modal-title">modal-title</h2>
-                        <p id="modal-desc">modal-desc</p>
-                        <img id="modal-img" src="" alt="">
-                    </div>
+            // open modal & check for extra image
+            for (let i = 0; i < allBtns.length; i++) {
+                const btn = allBtns[i];
 
-                </div>
-
-
-            </section>
-        </div>
-
-        <h2>Portfolio@HaleyGriffin.dev</h2>
-
-    </main>
-
-    <script>
-        var allBtns = document.getElementsByClassName("open-modal");
-        var modal = document.getElementById("modal");
-
-        var mClose = document.getElementById("modal-close");
-        var mTitle = document.getElementById("modal-title");
-        var mText = document.getElementById("modal-desc");
-        var mImg = document.getElementById("modal-img");
-
-        // open modal & check for extra image
-        for (let i = 0; i < allBtns.length; i++) {
-            const btn = allBtns[i];
-
-            btn.onclick = function (event) {
-                var data = event.currentTarget.dataset // element attributes
-                mText.innerHTML = data.desc
-                mTitle.innerHTML = data.title
-                mImg.src = data.src
-                mImg.alt = data.alt
-                if (data.src2) { // optional second image
-                    var newImg = document.createElement("img");
-                    newImg.setAttribute("id", "modal-img2");
-                    newImg.src = data.src2;
-                    newImg.alt = data.alt2;
-                    document.getElementById("modal-content").appendChild(newImg);
+                btn.onclick = function (event) {
+                    var data = event.currentTarget.dataset // element attributes
+                    mText.innerHTML = data.desc
+                    mTitle.innerHTML = data.title
+                    mUrl.href = data.url
+                    mImg.src = data.img
+                    mImg.alt = data.title
+                    if (data.img2) { // optional second image
+                        var newImg = document.createElement("img");
+                        newImg.setAttribute("id", "modal-img2");
+                        newImg.setAttribute('draggable', false);
+                        newImg.src = data.img2;
+                        newImg.alt = data.title;
+                        document.getElementById("modal-content").appendChild(newImg);
+                    }
+                    modal.style.display = "block";
                 }
-                modal.style.display = "block";
             }
-        }
 
-        // close modal & check for extra image
-        mClose.onclick = function () {
-            modal.style.display = "none";
-            if (document.getElementById("modal-img2")) {
-                document.getElementById("modal-img2").remove();
-            }
-        }
-        window.onclick = function (event) {
-            if (event.target == modal) {
+            // close modal & check for extra image
+            mClose.onclick = function () {
                 modal.style.display = "none";
-                if (document.getElementById("modal-img2")) {
-                    document.getElementById("modal-img2").remove();
+                if (document.getElementById("modal-img2")) { document.getElementById("modal-img2").remove(); }
+            }
+            window.onclick = function (event) {
+                if (event.target == modal) {
+                    modal.style.display = "none";
+                    if (document.getElementById("modal-img2")) { document.getElementById("modal-img2").remove(); }
                 }
             }
-        }
 
 
 
-    </script>
+        </script>
 
-</body>
+    </body>
 
 </html>

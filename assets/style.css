@@ -40,25 +40,20 @@ h1 {
     a div:hover {
         background-color: #bccbe9;
     }
- 
+
 }
 
 /* mobile styles */
-@media screen and (max-width: 1000px) {
- 
-}
+@media screen and (max-width: 1000px) {}
 
-@media screen and (max-width: 900px) {
-
- 
-}
+@media screen and (max-width: 900px) {}
 
 @media screen and (max-width: 700px) {
- 
+
     img#griffin {
         width: 40%;
     }
- 
+
 }
 
 @media screen and (max-width: 500px) {
@@ -97,28 +92,30 @@ h1 {
         width: 70%;
     }
 
- 
+
     #home .header section {
         width: 90% !important;
         margin-top: 15% !important;
     }
 
- 
+
 
     .wrapper {
         padding-top: 5%;
     }
 }
 
- 
+
 
 
 /* === HOME === */
 
 .header {
-    width: 742px;
+    /* width: 742px; */
+    width: 80%;
     margin: 5% auto;
     background-color: white;
+    /* background-color: lightgray; */
     border-radius: 10px;
     box-shadow: 0px 5px 15px rgb(0 0 0 / 10%);
     padding: 5% 0px;
@@ -133,7 +130,7 @@ main {
     width: 80%;
     margin: 0 auto;
     justify-content: center;
-     
+
 }
 
 #home-article {
@@ -147,10 +144,11 @@ main {
     text-align: left;
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: left;
 }
 
-#home-article div a, #art-links div p a {
+/* icon link */
+#home-article div a {
     padding-right: 5%;
     text-decoration: none;
     display: flex;
@@ -160,13 +158,14 @@ main {
     color: #8a9aba;
 }
 
+/* icon */
 #home-article div a i {
     color: #bccbe9;
     font-size: 2em;
 }
 
-#home-article div a small, #art-links div p a small {
-    /* font-size: 0; */
+/* icon title */
+#home-article div a small {
     padding: 0;
     display: inline-block;
     color: #4a5c7f;
@@ -202,5 +201,87 @@ main {
 }
 
 
+/* portfolio */
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.4);
+}
 
-  
+.modal-content {
+    background-color: #fefefe;
+    margin: 5% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 70%;
+    text-align: left;
+}
+
+.modal-content img {
+    width: 100%;
+}
+
+#modal-head{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+#modal-head h2{
+    margin: 0;
+} 
+#modal-desc{
+    margin: 0;
+    margin-bottom: 10px;
+}
+#modal-close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+#modal-close:hover,
+#modal-close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+ 
+
+#portfolio {
+    column-count: 3;
+    column-gap: 30px;
+}
+
+#portfolio .open-modal {
+    display: inline-block;
+    background-color: rgb(241, 241, 241);
+    /* box-shadow: 0px 5px 15px rgb(0 0 0 / 10%); */
+    border-radius: 5%;
+    width: 100%;
+    /* border: 1px solid grey; */
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+div.open-modal p {
+    display: flex;
+    justify-content: space-between;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    max-width: 100%;
+    margin-top: 0;
+}
+
+div.open-modal img {
+    max-width: 100%;
+}
